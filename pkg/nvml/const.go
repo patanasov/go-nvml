@@ -883,8 +883,13 @@ type TemperatureSensors int32
 // TemperatureSensors enumeration from nvml/nvml.h
 const (
 	TEMPERATURE_GPU   TemperatureSensors = 0
-	TEMPERATURE_MEMORY   TemperatureSensors = 10
-	TEMPERATURE_COUNT TemperatureSensors = 1
+	TEMPERATURE_MEM  = 1
+	TEMPERATURE_BOARD  = 2
+	TEMPERATURE_VR1  = 3
+	TEMPERATURE_VR2  = 4
+	TEMPERATURE_VR3  = 5
+	TEMPERATURE_VR4  = 6
+	TEMPERATURE_COUNT TemperatureSensors = 7
 )
 
 // ComputeMode as declared in nvml/nvml.h
